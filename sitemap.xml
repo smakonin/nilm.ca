@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://nilm.ca/</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://nilm.ca/papers/ENEF_2014.pdf</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nilm.ca/papers/PhD_Thesis.pdf</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nilm.ca/papers/NILM_2014.pdf</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nilm.ca/papers/NILM_2014_pres.pdf</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nilm.ca/papers/IHTC_2014.pdf</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nilm.ca/papers/VanAGM_2014.pdf</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nilm.ca/papers/APPEEC_2013.pdf</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nilm.ca/papers/EPEC_2013.pdf</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nilm.ca/papers/CCECE_2013.pdf</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nilm.ca/papers/PhD_DepthReport.pdf</loc>
+  <lastmod>2014-10-19T21:59:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>

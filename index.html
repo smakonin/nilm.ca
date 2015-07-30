@@ -39,76 +39,110 @@
         <b>Nonintrusive (Appliance) Load Monitoring (NILM or NIALM)</b>, sometimes called <em>load disaggregation</em>, is an area in computational sustainability that tries to discern what electrical loads (e.i. appliance) are running within a physical area where power is supplied to from the main power meter. Such areas can include communities, industrial sites, office towers, buildings, homes, and even with in an appliance. By knowing what loads are running, when they are running, and how much power they are consuming we can begin to make informed choices that can lead to a reduction in power consumption.
         </p>
 
-        <h2>Motivation</h2>
-
         <p>
         It is common knowledge that our increase in consumption is neither economically nor environmentally sustainable. Power utilities around the world are or will be bringing in <i>time-of-day usage tariffs</i> These tariffs try to discourage power consumption during <i>peak hours</i> of usage and defer that consumption to <i>off-peak hours</i>  (a.k.a. peak shaving). Peak shaving is a response to the rolling blackouts caused by demand exceeding supply. When this happens, the power grid experiences blackouts which is an inconvenience to all. This is only compounded as the demand for power increases. Residential homes consume about 34% of the total power consumption in the USA and are projected to increase to 39% by 2030. Economically this means consumers will be charged higher prices and environmentally this means producing more supply using unclean sources (e.g. coal).
         </p>
 
 
+        <h2>Open Source Projects</h2>
+
+        <p>
+        The following are my NILM projects that have been released as open source on <a href="https://github.com/smakonin">GitHub</a>.
+        </p>
+        
+        <dl>
+            
+            <dt><a href="https://github.com/smakonin/DataWrangle_REDD">Data Wrangle REDD</a></dt>
+            <dd>Importing script to data wrangle (convert, clean, and repair data from) the <a href="http://redd.csail.mit.edu">REDD dataset</a>. If you use this code please cite my <a href="http://summit.sfu.ca/item/14410">PhD thesis</a>.</dd>
+
+            <dt><a href="https://github.com/smakonin/NILM_PerformanceEval">NILM Performance Evaluation</a></dt>
+            <dd>NILM performance evaluation functions use in the <a href="http://makonin.com/doc/ENEF_2014.pdf">Springer Energy Efficiency journal paper</a>. If you use this code please cite my journal paper.</dd>
+
+            <dt><a href="https://github.com/smakonin/Ammeter">Ammeter</a></dt>
+            <dd>A shield for the Arduino Due to mesure current using current transformers (CT) for up to 4 power lines. This ammeter was used to run my <a href="http://summit.sfu.ca/item/14410">PhD thesis</a> disaggregation algorithm called &micro;Disagg. If you use this code please cite my <a href="http://makonin.com/doc/APPEEC_2013.pdf">APPEEC 2013 paper</a>.</dd>
+            
+        </dl>
+        
+        <h2>Open Datasets</h2>
+
+        <p>
+        The following are my NILM datasets that have been released as open to the public.
+        </p>
+
+        <dl>
+
+            <dt><a href="http://ampds.org/">The Almanac of Minutely Power Dataset (AMPds)</a></dt>
+            <dd>The AMPds dataset has been release to help load disaggregation/NILM and eco-feedback researcher test their algorithms, models, systems, and prototypes. This dataset is intended to be multi-year capture of the consumption of my house. This dataset contains electricity, water, and natural gas measurements at one minute intervals. A total of 1,051,200 readings per meter for 2 years of monitoring.</dd>
+
+            <dt><a href="http://dx.doi.org/10.7910/DVN/2K9FFE">2010 ZigBee Sensor Data Collected From a House (in Vancouver, Canada) Dataset</a></dt>
+            <dd>This dataset contains power meter, ambient light, and ambient temperature sensors readings; including weather and daylight data. Sensor readings are at 15 minute intervals for about 8 months. This dataset was originally used in the my <a href="http://makonin.com/doc/ICOST_2011.pdf">conference publication</a> and the later expanded <a href="http://makonin.com/doc/GSTF-JOC_2012.pdf">journal paper</a>. This dataset monitors the same house that <a href="http://ampds.org/">AMPds</a> and should have not limited use for testing very low-frequency load disaggregation (nonintrusive load monitoring  or NILM) algorithms and activity inference algorithms.
+            </dd>
+            
+        </dl>
+        
         <h2>Published Research Papers</h2>
 
         <p>
         The following are my NILM peer-reviewed journal and conference papers.
         </p>
         
-        <!--<p><aside>
+        <p><aside>
         <a href="SMakonin_NILM.bib"><img src="images/file_bib.png"></a>&nbsp; You can <a href="SMakonin_NILM.bib">download</a> my BibTeX file  which has the citation information of all my papers.
-        </aside></p>-->
+        </aside></p>
 
         <ol>
     	<li>
-    	S. Makonin and F. Popowich (in press).
+    	<strong>S. Makonin</strong> and F. Popowich (in press).
     	<a href="http://makonin.com/doc/ENEF_2014.pdf">Nonintrusive Load Monitoring (NILM) Performance Evaluation: A unified approach for accuracy reporting</a>. 
     	Energy Efficiency, Volume XX, Issue X, October 2014, Pages 1-6, Springer (online first).
     	</li>
 
     	<li>
-    	S. Makonin (2014).
+    	<strong>S. Makonin</strong> (2014).
     	<a href="http://summit.sfu.ca/item/14410">Real-Time Embedded Low-Frequency Load Disaggregation</a>. 
     	PhD thesis, Simon Fraser University, School of Computing Science.
     	</li>
     	
     	<li>
-    	S. Makonin, I. V. Bajic, and F. Popowich (2014).
+    	<strong>S. Makonin</strong>, I. V. Bajic, and F. Popowich (2014).
     	<a href="http://makonin.com/doc/NILM_2014.pdf">Efficient Sparse Matrix Processing for Nonintrusive Load Monitoring (NILM)</a>. 
     	In Proceedings of the 2nd International Workshop on Non- Intrusive Load Monitoring.
     	<div style="float: right; position: relative;"><a href="http://makonin.com/datasets/NILM_2014_data.csv"><img src="images/file_dataset.png"></a>&nbsp;&nbsp;<a href="http://makonin.com/doc/NILM_2014_pres.pdf"><img src="images/file_pres.png"></a></div>
     	</li>
     	
     	<li>
-    	S. Makonin, L. Guzman Flores, R. Gill, R. A. Clapp, L. Bartram, and B. Gill (2014).
+    	<strong>S. Makonin</strong>, L. Guzman Flores, R. Gill, R. A. Clapp, L. Bartram, and B. Gill (2014).
     	<a href="http://makonin.com/doc/IHTC_2014a.pdf">A Consumer Bill of Rights for Energy Conservation</a>. 
     	In Proceedings of the 2014 IEEE Canada International Humanitarian Technology Conference (IHTC).
     	</li>
     	
     	<li>
-    	S. Makonin (2014).
+    	<strong>S. Makonin</strong> (2014).
     	<a href="http://makonin.com/doc/VanAGM_2014.pdf">Nonintrusive Load Monitoring (NILM): What an algorithm can tell you about your energy consumption</a>. 
     	In Poster Session at IEEE Vancouver Section Annual General Meeting.
     	</li>
     	
     	<li>
-    	S. Makonin, W. Sung, R. Dela Cruz, B. Yarrow, B. Gill, F. Popowich, and I. V. Bajic (2013). 
+    	<strong>S. Makonin</strong>, W. Sung, R. Dela Cruz, B. Yarrow, B. Gill, F. Popowich, and I. V. Bajic (2013). 
     	<a href="http://makonin.com/doc/APPEEC_2013.pdf">Inspiring Energy Conservation through Open Source Metering Hardware and Embedded Real-Time Load Disaggregation</a>. 
     	In Proceedings of the 5th IEEE PES Asia-Pacific Power and Energy Engineering Conference (APPEEC).
     	</li>
     	
     	<li>
-    	S. Makonin, F. Popowich, L. Bartram, B. Gill, and I. V. Bajic (2013). 
+    	<strong>S. Makonin</strong>, F. Popowich, L. Bartram, B. Gill, and I. V. Bajic (2013). 
     	<a href="http://makonin.com/doc/EPEC_2013.pdf">AMPds: A Public Dataset for Load Disaggregation and Eco-Feedback Research</a>. 
     	In Proceedings of the 2013 IEEE Electrical Power and Energy Conference (EPEC).
     	<div style="float: right; position: relative;"><a href="http://ampds.org/"><img src="images/file_dataset.png"></a></div>
     	</li>
     	
     	<li>
-    	S. Makonin, F. Popowich, and B. Gill (2013). 
+    	<strong>S. Makonin</strong>, F. Popowich, and B. Gill (2013). 
     	<a href="http://makonin.com/doc/CCECE_2013.pdf">The Cognitive Power Meter: Looking Beyond the Smart Meter</a>. 
     	In Proceedings of the 2013 26th Annual IEEE Canadian Conference on Electrical and Computer Engineering (CCECE).
     	</li>
     	
     	<li>
-    	S. Makonin, (2012). 
+    	<strong>S. Makonin</strong>, (2012). 
     	<a href="http://makonin.com/doc/DepthReport.pdf">Approaches to Non-Intrusive Load Monitoring (NILM) in the Home</a>.
     	PhD Depth Report, Simon Fraser University, School of Computing Science.
     	</li>
@@ -120,18 +154,6 @@
         Stay tuned as I will post my NILM algorithm results soon...
         </p>-->
 
-        
-        <h2>Sponsorship</h2>
-        <p>
-        This work was supported in part by grants from the following agencies:
-        </p>
-        <span id="imgstrip">
-        <a href="http://grand-nce.ca"><img src="images/grand-nce.png" id="sponsor" alt="GRAND-NCE: Graphics, Animation and New Media Network of Centres of Excellence of Canada"></a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="http://www.nserc-crsng.gc.ca"><img src="images/nserc.png" id="sponsor" alt="NSERC: National Sciences and Engineering Research Council of Canada"></a>
-        </span>
-
-        
        	<footer>
             <span id="imgstrip">
                 Copyright &copy; 2012, 2014 <a href="http://makonin.com">Stephen Makonin</a>. All Rights Reserved.

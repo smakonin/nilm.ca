@@ -51,4 +51,7 @@ table.sample { width: 720px; border-width: 0px; border-spacing: 0px; border-styl
 table.sample th { border-width: 1px; padding: 6px; border-style: solid; border-color: gray; background-color: lightgray; -moz-border-radius: ; text-align: center; }
 table.sample td { border-width: 1px; padding: 6px; border-style: solid; border-color: gray; background-color: white; -moz-border-radius: ; }
 li {padding-bottom:0.8em;}
+dl {padding-left: 40px;}
+dl dt {font-weight: bold;}
+dl dd {padding-bottom: 1em;}
 

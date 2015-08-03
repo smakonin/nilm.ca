@@ -54,4 +54,6 @@ li {padding-bottom:0.8em;}
 dl {width: 720px;}
 dl dt {font-weight: bold;}
 dl dd {padding-bottom: 1em;}
-
+.video {width:720px;clear:both;}
+.video iframe{margin: 0 auto;width:560px;display:block;}
+.video p{margin: 0 auto;width:560px;text-align:justify;padding-top:0.5em;}

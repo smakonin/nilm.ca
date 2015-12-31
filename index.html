@@ -7,8 +7,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="author" content="Stephen Makonin">
     <meta name="copyright" content="Stephen Makonin">
-    <meta name="description" content="Nonintrusive Load Monitoring (NILM): Load Disaggregation Research for Smart Grid, Smart Homes, and Smart Meters." />
-    <meta name="keywords" content="NILM, nonintrusive Load Monitoring, load disaggregation, power, energy, electricity, water, natural gas, consumption" />
+    <meta name="description" content="Non-Intrusive Load Monitoring (NILM): Disaggregation Research for Smart Grid, Smart Homes, and Smart Meters by Srephen Makonin." />
+    <meta name="keywords" content="NILM, non-intrusive Load Monitoring, load disaggregation, power, energy, electricity, water, natural gas, consumption" />
 
     <link rel="shortcut icon" href="favicon.ico">
     <link href="fonts/font.css" rel="stylesheet" type='text/css'>
@@ -26,10 +26,15 @@
 </head>
 <body>
     <div id="body">
-        <h0><a href="http://makonin.com"><img src="images/leaf.png" id="logo" alt="Stephen Makonin">Stephen Makonin</a></h0>
-        <h1>Nonintrusive Load Monitoring</h1>
-        <h2>Load Disaggregation Research for Smart Grid, Smart Homes, and Smart Meters</h2>
+        <img src="images/NILM_logo.png" id="logo" alt="NILM Research by Stephen Makonin">
+        <h2>This site is dedicated to NILM and disaggregation research done by <a href="http://makonin.com">Stephen Makonin</a>.</h2>
 
+        <center>
+            <h3>&nbsp;</h3>
+            <a href="http://nilmworkshop.org/2016/"><h3>Are you ready for the 3rd International Workshop on<br/>Non-Intrusive Load Monitoring (NILM)?</h3></a>
+            <a href="http://nilmworkshop.org/2016/"><img id="nilm2016" src="images/NILM2016.png" alt="NILM2016"/></a>
+        </center>
+        
         <!--<div id="realpower"></div>-->
 
         <!--<p><aside>
@@ -37,7 +42,7 @@
         </aside></p>-->
 
 
-        <h3 style="color:red;"><br/>This site is currently being redesigned. I will announce the relaunch on my <a href="http://eco-sustain.org">blog</a>.</h3>
+        <!--<h3 style="color:red;"><br/>This site is currently being redesigned. I will announce the relaunch on my <a href="http://eco-sustain.org">blog</a>.</h3>-->
 
         <p style="margin-top:3em;">
         <b>Nonintrusive (Appliance) Load Monitoring (NILM or NIALM)</b>, sometimes called <em>load disaggregation</em>, is an area in computational sustainability that tries to discern what electrical loads (e.i. appliance) are running within a physical area where power is supplied to from the main power meter. Such areas can include communities, industrial sites, office towers, buildings, homes, and even with in an appliance. By knowing what loads are running, when they are running, and how much power they are consuming we can begin to make informed choices that can lead to a reduction in power consumption.
@@ -86,8 +91,11 @@
 
         <dl>
 
-            <dt><a href="http://ampds.org/">The Almanac of Minutely Power Dataset (AMPds)</a></dt>
-            <dd>The AMPds dataset has been release to help load disaggregation/NILM and eco-feedback researcher test their algorithms, models, systems, and prototypes. This dataset is intended to be multi-year capture of the consumption of my house. This dataset contains electricity, water, and natural gas measurements at one minute intervals. A total of 1,051,200 readings per meter for 2 years of monitoring.</dd>
+            <dt><a href="http://ampds.org/">AMPds2: The Almanac of Minutely Power dataset (Version 2)</a></dt>
+            <dd>Version 2 of the AMPds dataset has been release to help load disaggregation/NILM and eco-feedback researcher test their algorithms, models, systems, and prototypes. This dataset is intended to be multi-year capture of the consumption of my house. This dataset contains electricity, water, and natural gas measurements at one minute intervals. This dataset contains a total of 1,051,200 readings for 2 years of monitoring (from April/2012 to March/2014) per meter. There are a total of 21 power meters, 2 water meters (with additional appliance usage annotations), and 2 natural gas meters. Weather data from Environment Canada's YVR weather station has also been added. This hourly weather data covers the same period of time as AMPds and includes a summary of climate normals observed from the years between 1981-2010. Billing data from utility companies is also included for cost/benefit analysis.</dd>
+            
+            <dt><a href="http://dx.doi.org/10.7910/DVN/MXB7VO">AMPds: Almanac of Minutely Power dataset (R2013)</a></dt>
+            <dd>The AMPds dataset has been released to help load disaggregation/NILM and eco-feedback researcher test their algorithms, models, systems, and prototypes. This is the original version, Release 2013 (R2013). This dataset contains electricity, water, and natural gas measurements at one-minute intervals. A total of 525,600 readings per meter.</dd>
 
             <dt><a href="http://dx.doi.org/10.7910/DVN/2K9FFE">ODDs: Occupancy Detection Dataset</a></dt>
             <dd>This dataset contains power meter, ambient light, and ambient temperature sensors readings; including weather and daylight data. Sensor readings are at 15 minute intervals for about 8 months. This dataset was originally used in the my <a href="http://makonin.com/doc/ICOST_2011.pdf">conference publication</a> and the later expanded <a href="http://makonin.com/doc/GSTF-JOC_2012.pdf">journal paper</a>. This dataset monitors the same house that <a href="http://ampds.org/">AMPds</a> and should have some limited use for testing very low-frequency load disaggregation (nonintrusive load monitoring  or NILM) algorithms and activity inference algorithms.
@@ -153,7 +161,7 @@
     	<strong>S. Makonin</strong>, F. Popowich, L. Bartram, B. Gill, and I. V. Bajic (2013). 
     	<a href="http://makonin.com/doc/EPEC_2013.pdf">AMPds: A Public Dataset for Load Disaggregation and Eco-Feedback Research</a>. 
     	In Proceedings of the 2013 IEEE Electrical Power and Energy Conference (EPEC).
-    	<div style="float: right; position: relative;"><a href="http://ampds.org/"><img src="images/file_dataset.png"></a></div>
+    	<div style="float: right; position: relative;"><a href="http://dx.doi.org/10.7910/DVN/MXB7VO"><img src="images/file_dataset.png"></a></div>
     	</li>
     	
     	<li>
@@ -177,7 +185,7 @@
 
        	<footer>
             <span id="imgstrip">
-                Copyright &copy; 2012&mdash;2015 <a href="http://makonin.com">Stephen Makonin</a>. All Rights Reserved.
+                Copyright &copy; 2012&mdash;2016 <a href="http://makonin.com">Stephen Makonin</a>. All Rights Reserved.
                 <br/>
                 <br/>
             </span>
